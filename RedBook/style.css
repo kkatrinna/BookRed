@@ -65,8 +65,8 @@ text-align: center;
 }
 
 .slide img {
-width: 150px;
-height: 150px;
+width: 120px;
+height: 120px;
 margin-bottom: 5px;
 }
 
@@ -78,8 +78,8 @@ color: #f6f8fa;
 border: none;
 border-radius: 3px;
 cursor: pointer;
-width: 150px;
-height: 40px;
+width: 120px;
+height: 60px;
 }
 
 .slider::after {
