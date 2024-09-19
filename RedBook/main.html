@@ -3,6 +3,7 @@
 <head>
   <title>Красная книга</title>
   <link rel="stylesheet" href="style.css">
+   <script src="https://api-maps.yandex.ru/2.1/?apikey=77764b93-1d2a-4c67-8450-c6a3e2920869&lang=ru_RU" type="text/javascript"></script>
   <script src="javascript.js"></script>
 </head>
 <body>
@@ -14,8 +15,8 @@
   </header>
    <div class="slider">
        <div class="slide">
-           <img src="plants.png" alt="Image 2">
-           <button onclick="navigateTo('plants.html')">Растения</button>
+           <img src="plants.png" alt="Image 1">
+           <button onclick="navigateTo('plants.html')">Растения и грибы</button>
        </div>
 	   <div class="slide">
            <img src="fish.png" alt="Image 2">
@@ -30,8 +31,12 @@
            <button onclick="navigateTo('birds.html')">Птицы</button>
        </div>
 	   <div class="slide">
-           <img src="other.png" alt="Image 4">
-           <button onclick="navigateTo('other.html')">Земноводные, пресмыкающиеся, беспозвоночные</button>
+           <img src="other.png" alt="Image 5">
+           <button onclick="navigateTo('.html')">Земноводные, пресмыкающиеся</button>
+       </div>
+	   <div class="slide">
+           <img src="other.png" alt="Image 6">
+           <button onclick="navigateTo('other.html')">Беспозвоночные</button>
        </div>
    </div>
    <div class="description">
@@ -49,6 +54,10 @@
 			<button>Узнать больше</button>
 		</div>
 	</div>
+	<div class="container">
+		<div class="map-container">
+		<div id="map" style="width: 500; height: 400px;"></div>
+  </div>
 </body>
 </div>
 
